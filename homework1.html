@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>Some text</title>
+    <meta charset="utf-8">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            min-height: 100%;
+            background-color: gray;
+        }
+        
+        span {
+            color: yellow;
+            background-color: white;
+        }
+        
+        div > span {
+            color: red;
+            background-color: yellow;
+        }
+        
+        thead {
+            background-color: yellow;
+            color: black;
+        }
+        
+        tbody {
+            background-color: yellow;
+            color: gray;
+        }
+        
+        div {
+            background-color: green;
+        }    
+        
+    </style>
+</head>
+ 
+<body>
+    серый фон
+    <span>желтый текст, белый фон</span>
+    <div>
+        черный текст, зеленый фон
+        <span>красный текст, желтый фон</span>
+        <table>
+            <thead>
+                <tr><td>желтый фон, черный текст</td></tr>
+            </thead>
+            <tbody>
+                <tr><td>желтый фон, серый текст</td></tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+ 
+</html>
