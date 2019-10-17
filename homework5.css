@@ -53,32 +53,4 @@ body {
   padding: 40px;
   background-color: black; }
 
-@media screen and (max-width: 1023px) {
-  div.yellow {
-    -webkit-transition: 2s linear;
-    transition: 2s linear;
-    padding-left: 270px;
-    padding-right: 270px; } }
-@media screen and (max-width: 767px) {
-  div.container {
-    display: inline-block;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-
-  div.black {
-    margin-top: -6px; }
-
-  div.green {
-    -ms-flex-item-align: center;
-        align-self: center;
-    padding: 40px;
-    padding-left: 1000px; }
-
-  div.blue {
-    -ms-flex-item-align: center;
-        align-self: center;
-    padding: 40px; } }
-
 /*# sourceMappingURL=homework5.css.map */
